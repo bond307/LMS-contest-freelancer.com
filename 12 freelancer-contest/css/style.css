@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Ubuntu:wght@500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #bd2025;
+    --secoundry-color: #144579;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn-primary {
+    padding: 10px 25px;
+    font-size: 18px;
+    font-family: "ubuntu";
+    background: var(--primary-color);
+    border: navajowhite;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #9d0e13;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#header {
+    padding: 20px 0px;
+    height: 85px;
+}
+
+#header .container {
+    padding: 0px 100px;
+}
+
+#header .logo {
+    width: 25%;
+    float: left;
+}
+
+#header .logo img {
+    height: 50px;
+    margin: 0px 0px;
+}
+
+#header .menu {
+    width: 65%;
+    float: left;
+    margin-top: 13px;
+}
+
+#header .menu ul {}
+
+#header .menu ul li {
+    font-size: 16px;
+    padding: 25px;
+}
+
+#header .menu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#header .menu ul li a i {}
+
+#header .right-menu {
+    width: 10%;
+    float: left;
+    margin-top: 15px;
+}
+
+#header.right-menu ul {}
+
+#header .right-menu ul li {
+    font-size: 20px;
+    padding: 0px 13px;
+}
+
+#header .right-menu ul li i {}
+
+#hero {
+    background-image: url(../img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+
+.overly {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+
+#hero .container {
+    width: 550px;
+    margin: 0 auto;
+    padding: 170px 0px;
+    text-align: center;
+}
+
+#hero .container h2 {
+    color: #fff;
+    font-size: 35px;
+    font-family: "Ubuntu";
+}
+
+#hero .container p {
+    line-height: 20px;
+    margin: 19px 0px;
+    color: #f1f1f1;
+}
+
+#hero .container button {
+    margin-top: 20px;
+}
